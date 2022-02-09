@@ -19,7 +19,7 @@ public class AccountWithVeryGoodEncapsulation {
     {
         if(amountToDeposit > 0)
         {
-            this.accountBalance = this.accountBalance + amountToDeposit;
+            this.accountBalance += amountToDeposit;
         }
         else
         {
